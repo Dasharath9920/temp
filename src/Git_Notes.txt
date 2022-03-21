@@ -1,11 +1,20 @@
 Clone: Bring a repository that is hosted somewhere like GitHub into a folder on your local machine.
 add: Track your files and changes in Git
+    add . : This will add all the changes done
+init: Initialize repository of github
 commit: Save your files in Git
     -m: message in the header section
     -m(second time): message in the description
 
 -- Upto here changes are stored on local machine
 
+Connecting to remote git repo: git remote add origin 'git_repo_path'
+
 push: Upload Git commits to a remote repo, like GitHub
+    git push origin master
+        if you want to use just git push instead of whole thing, setup default push as follows
+    git push -u origin master
+        this will setup default repo. From next time onwards just use git push
+    
 pull: Download changes from remote repo to your local machine, the opposite of push
 status: Display modified and newly created files that need to be uploaded to the git.
