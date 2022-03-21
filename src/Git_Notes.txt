@@ -3,7 +3,9 @@ add: Track your files and changes in Git
 commit: Save your files in Git
     -m: message in the header section
     -m(second time): message in the description
-    
+
+-- Upto here changes are stored on local machine
+
 push: Upload Git commits to a remote repo, like GitHub
 pull: Download changes from remote repo to your local machine, the opposite of push
 status: Display modified and newly created files that need to be uploaded to the git.
