@@ -18,3 +18,5 @@ push: Upload Git commits to a remote repo, like GitHub
     
 pull: Download changes from remote repo to your local machine, the opposite of push
 status: Display modified and newly created files that need to be uploaded to the git.
+
+We use pull request to review our code by someone else
