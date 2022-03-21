@@ -29,3 +29,5 @@ Git Branching:
     -b: to create new branch
     git checkout -b branch_name: Create a new branch named branch_name
     git checkout branch_name: Switch to the branch branch_name
+
+    We can use pull to pull code from github to editor
