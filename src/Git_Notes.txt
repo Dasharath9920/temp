@@ -35,3 +35,4 @@ Git Branching:
 
     We can use pull to pull code from github to editor
 >>>>>>> branch_2
+    Merge Conflict: This happens when many people are working parallelly and modify the code at the same time with collision.(master)
