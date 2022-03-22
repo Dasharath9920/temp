@@ -32,10 +32,13 @@ Git Branching:
     git checkout -b branch_name: Create a new branch named branch_name
     git checkout branch_name: Switch to the branch branch_name
 
-    We can use pull to pull code from github to editorr
+    We can use pull to pull code from github to editor
 
     Merge Conflict: This happens when many people are working parallelly and modify the code at the same time with collision.(master)
 
 Git Undoing:
 
-    
+    git reset HEAD~1 : This is will undo the last commit done
+    git log : This will display all the commits that had done with their hash values
+    git reset hash_value: This will undo all the commits till the selected commit
+    git reset --hard hash_values: This will not only undo the commits, but also deletes them completely from the local machine.
