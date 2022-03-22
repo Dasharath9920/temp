@@ -21,9 +21,8 @@ status: Display modified and newly created files that need to be uploaded to the
 
 We use pull request to review our code by someone else
 
-<<<<<<< HEAD
     git diff second_branch_name: This will display the differences between different versions of the branches.
-=======
+
 Git Branching:
 
     git branch: To list number of branches
@@ -33,6 +32,10 @@ Git Branching:
     git checkout -b branch_name: Create a new branch named branch_name
     git checkout branch_name: Switch to the branch branch_name
 
-    We can use pull to pull code from github to editor
->>>>>>> branch_2
+    We can use pull to pull code from github to editorr
+
     Merge Conflict: This happens when many people are working parallelly and modify the code at the same time with collision.(master)
+
+Git Undoing:
+
+    
